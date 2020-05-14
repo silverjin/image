@@ -139,7 +139,7 @@ var canvas, ctx, flag = false,
     dot_flag = false;
 
 var x = "black",
-    y = 2;
+    y = 4;
 
 function init() {
     canvas = document.getElementById('can');
@@ -181,12 +181,26 @@ function color(obj) {
         case "black":
             x = "black";
             break;
-        case "white":
-            x = "white";
+        case "rgb(66, 232, 255)":
+            x = "rgb(66, 232, 255)";
             break;
+        case "rgb(168, 168, 168)":
+                x = "rgb(168, 168, 168)";
+                break;
+                case "purple":
+                    x = "purple";
+                    break;
+                    case "black":
+                        x = "black";
+                        break;
+                        case "pink":
+                            x = "pink";
+                            break;
+
+
     }
     if (x == "white") y = 14;
-    else y = 2;
+    else y = 4;
 
 }
 
@@ -227,7 +241,7 @@ function findxy(res, e) {
         if (dot_flag) {
             ctx.beginPath();
             ctx.fillStyle = x;
-            ctx.fillRect(currX, currY, 2, 2);
+            ctx.fillRect(currX, currY, 4, 4);
             ctx.closePath();
             dot_flag = false;
         }
@@ -254,14 +268,15 @@ function findxy(res, e) {
       <div style="position:absolute;top:11%;left:43%;width:20px;height:20px;background:red;" id="red" onclick="color(this)"></div>
       <div style="position:absolute;top:11%;left:61%;width:20px;height:20px;background:yellow;" id="yellow" onclick="color(this)"></div>
       <div style="position:absolute;top:11%;left:79%;width:20px;height:20px;background:orange;" id="orange" onclick="color(this)"></div>
-      <div style="position:absolute;top:37%;left:7%;width:20px;height:20px;background:black;" id="black" onclick="color(this)"></div>
-      <div style="position:absolute;top:37%;left:25%;width:20px;height:20px;background:black;" id="black" onclick="color(this)"></div>
-      <div style="position:absolute;top:37%;left:43%;width:20px;height:20px;background:black;" id="black" onclick="color(this)"></div>
+      <div style="position:absolute;top:37%;left:25%;width:20px;height:20px;background:rgb(66, 232, 255);" id="rgb(66, 232, 255)" onclick="color(this)"></div>
+      <div style="position:absolute;top:37%;left:7%;width:20px;height:20px;background:rgb(168, 168, 168);" id="rgb(168, 168, 168)" onclick="color(this)"></div>
+      <div style="position:absolute;top:37%;left:43%;width:20px;height:20px;background:purple;" id="purple" onclick="color(this)"></div>
       <div style="position:absolute;top:37%;left:61%;width:20px;height:20px;background:black;" id="black" onclick="color(this)"></div>
-      <div style="position:absolute;top:37%;left:79%;width:20px;height:20px;background:black;" id="black" onclick="color(this)"></div>
+      <div style="position:absolute;top:37%;left:79%;width:20px;height:20px;background: pink;" id="pink" onclick="color(this)"></div>
       </div>
       <input type="button" value="CLEAR" id="clr" size="18" onclick="erase()" style="position:absolute;top:129px;left:54.8%;">
   </body>
+
 
 </body>
 
