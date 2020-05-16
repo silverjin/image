@@ -91,13 +91,14 @@ margin-left: 1000px;
   position: absolute;
   margin-top: 305px;
   margin-left: 900px;
-	z-index: 5;
+	z-index: 100;
 }
 
 .draggable5 {
   position: absolute;
   margin-top: 420px;
   margin-left: 720px;
+		z-index: 100;
 }
 .draggable6 {
   position: absolute;
@@ -123,26 +124,26 @@ margin-left: 1000px;
 .draggable10 {
 	position: absolute;
   margin-top: 750px;
-  margin-left: 860px;
+  margin-left: 820px;
 	z-index: -10;
 }
 .draggable11 {
 	position: absolute;
   margin-top: 600px;
   margin-left: 965px;
-	z-index: 3;
+	z-index: 100;
 }
 .draggable12 {
 	position: absolute;
-  margin-top: 630px;
-  margin-left: 940px;
+  margin-top: 580px;
+  margin-left: 980px;
 	z-index: 1;
 }
 .draggable13 {
 	position: absolute;
   margin-top:750px;
   margin-left: 295px;
-	z-index: 30;
+	z-index: 100;
 }
 .draggable14 {
 	position: absolute;
@@ -184,13 +185,13 @@ margin-left: 1000px;
 	position: absolute;
   margin-top:810px;
   margin-left: 640px;
-	z-index: 1;
+	z-index: 100;
 }
 .draggable21 {
 	position: absolute;
   margin-top:1020px;
   margin-left: 25px;
-	z-index: 1;
+	z-index: 100;
 }
 .draggable22 {
 	position: absolute;
@@ -200,15 +201,21 @@ margin-left: 1000px;
 }
 .draggable23 {
 	position: absolute;
-  margin-top:1030px;
-  margin-left: 675px;
+  margin-top:1020px;
+  margin-left: 645px;
 	z-index: 1;
 }
 .draggable24 {
 	position: absolute;
-  margin-top:1030px;
-  margin-left: 375px;
-	z-index: 1;
+  margin-top:950px;
+  margin-left: 805px;
+	z-index: -3;
+}
+.draggable25 {
+	position: absolute;
+  margin-top:440px;
+  margin-left: 1120px;
+	z-index: 4;
 }
 
 
