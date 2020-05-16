@@ -198,6 +198,18 @@ margin-left: 1000px;
   margin-left: 375px;
 	z-index: 1;
 }
+.draggable23 {
+	position: absolute;
+  margin-top:1030px;
+  margin-left: 675px;
+	z-index: 1;
+}
+.draggable24 {
+	position: absolute;
+  margin-top:1030px;
+  margin-left: 375px;
+	z-index: 1;
+}
 
 
 .ui-draggable, .ui-droppable {
@@ -218,7 +230,7 @@ margin-left: 1000px;
 
 .buttons {
 	position: absolute;
-	margin-top:170px;
+	margin-top:190px;
 	margin-left: 50%;
 }
 
