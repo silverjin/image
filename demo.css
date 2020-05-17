@@ -91,13 +91,14 @@ margin-left: 1000px;
   position: absolute;
   margin-top: 305px;
   margin-left: 900px;
-	z-index: 5;
+	z-index: 100;
 }
 
 .draggable5 {
   position: absolute;
   margin-top: 420px;
   margin-left: 720px;
+		z-index: 100;
 }
 .draggable6 {
   position: absolute;
@@ -123,26 +124,26 @@ margin-left: 1000px;
 .draggable10 {
 	position: absolute;
   margin-top: 750px;
-  margin-left: 860px;
+  margin-left: 820px;
 	z-index: -10;
 }
 .draggable11 {
 	position: absolute;
   margin-top: 600px;
   margin-left: 965px;
-	z-index: 3;
+	z-index: 100;
 }
 .draggable12 {
 	position: absolute;
-  margin-top: 630px;
-  margin-left: 940px;
+  margin-top: 580px;
+  margin-left: 980px;
 	z-index: 1;
 }
 .draggable13 {
 	position: absolute;
   margin-top:750px;
   margin-left: 295px;
-	z-index: 30;
+	z-index: 100;
 }
 .draggable14 {
 	position: absolute;
@@ -184,13 +185,13 @@ margin-left: 1000px;
 	position: absolute;
   margin-top:810px;
   margin-left: 640px;
-	z-index: 1;
+	z-index: 100;
 }
 .draggable21 {
 	position: absolute;
   margin-top:1020px;
   margin-left: 25px;
-	z-index: 1;
+	z-index: 100;
 }
 .draggable22 {
 	position: absolute;
@@ -200,16 +201,47 @@ margin-left: 1000px;
 }
 .draggable23 {
 	position: absolute;
-  margin-top:1030px;
-  margin-left: 675px;
-	z-index: 1;
+  margin-top:1020px;
+  margin-left: 645px;
+	z-index: 100;
 }
 .draggable24 {
 	position: absolute;
-  margin-top:1030px;
-  margin-left: 375px;
-	z-index: 1;
+  margin-top:950px;
+  margin-left: 770px;
+	z-index: -3;
 }
+.draggable25 {
+	position: absolute;
+  margin-top:460px;
+  margin-left: 1120px;
+	z-index: 4;
+}
+.draggable26 {
+	position: absolute;
+  margin-top:1030px;
+  margin-left: 1020px;
+	z-index: 100;
+}
+.draggable27 {
+	position: absolute;
+  margin-top:1150px;
+  margin-left: 580px;
+	z-index: 4;
+}
+.draggable28 {
+	position: absolute;
+  margin-top:1150px;
+  margin-left: 735px;
+	z-index: 4;
+}
+.draggable29 {
+	position: absolute;
+  margin-top:1050px;
+  margin-left: 1040px;
+	z-index: 4;
+}
+
 
 
 .ui-draggable, .ui-droppable {
@@ -252,4 +284,27 @@ ul.share-buttons .sr-only{
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+.gallery{
+  position: absolute;
+  text-align: center;
+  width: 1350px;
+  left: 30%;
+	top: 1440px;
+  transform: translate(-28.6%);
+	z-index: -20;
+}
+
+.description{
+  position: absolute;
+  text-align: left;
+	font-style: helvetica;
+	font-size: 18pt;
+	font-weight: 500;
+  width: 600px;
+  left: 30%;
+	top: 2460px;
+  transform: translate(-60%);
+	z-index: -20;
 }

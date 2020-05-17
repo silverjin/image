@@ -26,7 +26,15 @@ $(document).ready(function(){
 
 </script>
 <style>
+::-moz-selection { /* Code for Firefox */
+  color: yellow;
+  background: grey;
+}
 
+::selection {
+  color: yellow;
+  background: grey;
+}
 
 
 #panel, #flip {
@@ -343,10 +351,39 @@ function findxy(res, e) {
       <div style="position:absolute;top:37%;left:43%;width:20px;height:20px;background:purple;" id="purple" onclick="color(this)"></div>
       <div style="position:absolute;top:37%;left:61%;width:20px;height:20px;background:black;" id="black" onclick="color(this)"></div>
       <div style="position:absolute;top:37%;left:79%;width:20px;height:20px;background: pink;" id="pink" onclick="color(this)"></div>
+<input type="button" value="CLEAR" id="clr" onclick="erase()" style="position:absolute;top:67px;left:40px;height:30px;">
       </div>
-      <input type="button" value="CLEAR" id="clr" onclick="erase()" style="position:absolute;top:129px;left:53%;height:30px;">
+
   </body>
 
+
+  <div class="gallery">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/imb5Y4g.png" width="320px" style="padding-right: 10px; padding-bottom: 10px;">
+
+  </div>
+
+  <div class="description">
+    <font style="font-size: 24pt;">About</font><br><br>
+  This project has inspired by free school movement & How To Set Up a Free School by Toby Young.<br>
+  The free school movement, also known as the new schools or alternative schools movement, was an American education reform movement during the 1960s and early 1970s that sought to change the aims of formal schooling through alternative, independent community schools.<br>
+  한국학교 설명과 내가 왜 이런걸 디자인했는지<br><br>
+In this website you can upload your photo, decorate it with hand-drawn stickers about this movement and upload decorated photo on your social network services freely.
+With those stickers, you can decorate yourself as a student of free and self-driven school (unlike usual strict and military-like Korean schools) and you can spread this movement easily by click on the button on the right side.
+When you click the button, you can post a link of this website on your social network services.
+<br>Here is a platform for 'challenge' which people can design and express themselves freely with their own image and spread easily on their social network services by just click on the buttons.<br>
+<br>More on: (Notion Link)
+  </div>
 
 </body>
 
