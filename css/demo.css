@@ -11,6 +11,7 @@
 body{
 	font-family: Helvetica Neue;
 	background-color: #a0c1f4;
+	color: black;
 }
 
 .photobooth {
@@ -307,4 +308,5 @@ ul.share-buttons .sr-only{
 	top: 2460px;
   transform: translate(-60%);
 	z-index: -20;
+	color: black;
 }
