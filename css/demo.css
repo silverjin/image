@@ -285,3 +285,26 @@ ul.share-buttons .sr-only{
   width: 1px;
   overflow: hidden;
 }
+
+.gallery{
+  position: absolute;
+  text-align: center;
+  width: 1350px;
+  left: 30%;
+	top: 1440px;
+  transform: translate(-28.6%);
+	z-index: -20;
+}
+
+.description{
+  position: absolute;
+  text-align: left;
+	font-style: helvetica;
+	font-size: 18pt;
+	font-weight: 500;
+  width: 600px;
+  left: 30%;
+	top: 2460px;
+  transform: translate(-60%);
+	z-index: -20;
+}
