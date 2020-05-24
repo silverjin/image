@@ -7,8 +7,6 @@
     <title>DESIGN YOUR OWN SCHOOL</title>
     <title>jQuery UI Draggable - Default functionality</title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-      <link rel="stylesheet" href="/resources/demos/style.css">
-
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/demo.css">
 <link rel="stylesheet" href="dist/good-share.min.css">
@@ -88,7 +86,14 @@ $( function() {
         $( "#draggable28" ).draggable();
         $( "#draggable29" ).draggable();
 $( "#draggable30" ).draggable();
-      $( "#draggable31" ).draggable();
+$( "#draggable31" ).draggable();
+$( "#draggable32" ).draggable();
+$( "#draggable33" ).draggable();
+$( "#draggable34" ).draggable();
+$( "#draggable35" ).draggable();
+$( "#draggable36" ).draggable();
+$( "#draggable37" ).draggable();
+$( "#draggable38" ).draggable();
 } );
 </script>
 
@@ -191,15 +196,33 @@ $( "#draggable30" ).draggable();
   <div id="draggable29" class="draggable29">
     <p><img src="http://eunjinahn.me/image/sticker27.png" width="300px"></a></p>
   </div>
+  <div id="draggable30" class="draggable30">
+    <p><img src="http://eunjinahn.me/image/stakcer29.png" width="300px"></a></p>
+  </div>
+  <div id="draggable31" class="draggable31">
+    <p><img src="http://eunjinahn.me/image/stakcer30.png" width="300px"></a></p>
+  </div>
+  <div id="draggable32" class="draggable32">
+    <p><img src="http://eunjinahn.me/image/stakcer31.png" width="300px"></a></p>
+  </div>
+  <div id="draggable33" class="draggable33">
+    <p><img src="http://eunjinahn.me/image/stakcer32.png"></a></p>
+  </div>
+  <div id="draggable34" class="draggable34">
+    <p><img src="http://eunjinahn.me/image/stakcer33.png"></a></p>
+  </div>
+  <div id="draggable35" class="draggable35">
+    <p><img src="http://eunjinahn.me/image/stakcer34.png"></a></p>
+  </div>
 <script src="http://eunjinahn.me/image/index.js"></script>
 
 
 <!-- AddToAny BEGIN -->
 <div class="buttons">
 <ul class="share-buttons">
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Feunjinahn.xyz&quote=DESIGN+YOUR+OWN+SCHOOL" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/simple_icons/black/Facebook.png" /></a></li>&nbsp;
-  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Feunjinahn.xyz&text=DESIGN+YOUR+OWN+SCHOOL:%20http%3A%2F%2Feunjinahn.xyz" target="_blank" title="Tweet"><img alt="Tweet" src="images/simple_icons/black/Twitter.png" /></a></li>&nbsp;
-  <li><a href="mailto:?subject=DESIGN+YOUR+OWN+SCHOOL&body=placeholder:%20http%3A%2F%2Feunjinahn.xyz" target="_blank" title="Send email"><img alt="Send email" src="images/simple_icons/black/Email.png" /></a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Feunjinahn.me/image/index.html&quote=DESIGN+YOUR+OWN+SCHOOL" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/simple_icons/black/Facebook.png" /></a></li>&nbsp;
+  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Feunjinahn.me/image/index.html&text=DESIGN+YOUR+OWN+SCHOOL:%20http://eunjinahn.me/image/index.html" target="_blank" title="Tweet"><img alt="Tweet" src="images/simple_icons/black/Twitter.png" /></a></li>&nbsp;
+  <li><a href="mailto:?subject=DESIGN+YOUR+OWN+SCHOOL&body=placeholder:%20http%3A%2F%2Feunjinahn.me/image/index.html" target="_blank" title="Send email"><img alt="Send email" src="images/simple_icons/black/Email.png" /></a></li>
 </ul>
 
 </div>
@@ -293,7 +316,7 @@ function draw() {
 }
 
 function erase() {
-    var m = confirm("Want to clear");
+    var m = confirm("Clear Everything");
     if (m) {
         ctx.clearRect(0, 0, w, h);
         document.getElementById("canvasimg").style.display = "none";
@@ -351,7 +374,7 @@ function findxy(res, e) {
       <div style="position:absolute;top:37%;left:43%;width:20px;height:20px;background:purple;" id="purple" onclick="color(this)"></div>
       <div style="position:absolute;top:37%;left:61%;width:20px;height:20px;background:black;" id="black" onclick="color(this)"></div>
       <div style="position:absolute;top:37%;left:79%;width:20px;height:20px;background: pink;" id="pink" onclick="color(this)"></div>
-<input type="button" value="CLEAR" id="clr" onclick="erase()" style="position:absolute;top:67px;left:40px;height:30px;">
+<input type="button" value="CLEAR" id="clr" onclick="erase()" style="position:absolute;top:68px;margin-left: 20%;height:30px;">
       </div>
 
   </body>
@@ -376,13 +399,13 @@ function findxy(res, e) {
   </div>
 
   <div class="description">
-    <font style="font-size: 24pt; color: black;">About</font><br><br>
+    <font style="font-size: 18pt; color: black;"><b>About</b></font><br><br>
   This project has inspired by free school movement & How To Set Up a Free School by Toby Young.<br>
   The free school movement, also known as the new schools or alternative schools movement, was an American education reform movement during the 1960s and early 1970s that sought to change the aims of formal schooling through alternative, independent community schools.<br><br>
-In this website you can upload your photo, decorate it with hand-drawn stickers about this movement and upload decorated photo on your social network services freely.
+In this website you can upload your photo, decorate it with hand-drawn stickers about this movement and share decorated photo on your social network services.
 With those stickers, you can decorate yourself as a student of free and self-driven school (unlike usual strict and military-like Korean schools) and you can spread this movement easily by click on the button on the right side.
-<br>Here is a platform for 'challenge' which people can design and express themselves freely with their own image and spread easily on their social network services by just click on the buttons.<br>
-  </div>
+<br><br>Here is a platform for 'challenge' which people can design and express themselves freely with their own image and spread easily on their social network services by just click on the buttons.<br><br>
+  <br></div>
 
   <div class="logo">
 <img src="https://i.imgur.com/7MoYIJB.png" width="350px;">
