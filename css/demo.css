@@ -308,7 +308,7 @@ ul.share-buttons .sr-only{
   transform: translate(-60%);
 	z-index: -20;
 	color: black;
-	line-height: 1em;
+	line-height: 0.7em;
 }
 
 .logo{
