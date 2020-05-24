@@ -11,6 +11,7 @@
 body{
 	font-family: Helvetica Neue;
 	background-color: #a0c1f4;
+	color: black;
 }
 
 .photobooth {
@@ -63,7 +64,6 @@ font-weight: 600;
 footer{
     margin: 40px 0;
     text-align: center;
-    font-size: 0.9em;
 }
 
 
@@ -307,4 +307,15 @@ ul.share-buttons .sr-only{
 	top: 2460px;
   transform: translate(-60%);
 	z-index: -20;
+	color: black;
+	line-height: 1em;
+}
+
+.logo{
+  position: absolute;
+  right: 10%;
+	top: 2450px;
+  transform: translate(25%);
+	z-index: -20;
+	color: black;
 }
