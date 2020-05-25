@@ -243,7 +243,7 @@ margin-left: 1000px;
 .draggable32 {
 	position: absolute;
   margin-top:1200px;
-  margin-left: 445px;
+  margin-left: 480px;
 	z-index: 100;
 }
 .draggable33 {
@@ -262,6 +262,12 @@ margin-left: 1000px;
   margin-top:1190px;
   margin-left: 70px;
 }
+.draggable36 {
+	position: absolute;
+  margin-top:1210px;
+  margin-left:510px;
+}
+
 
 
 
