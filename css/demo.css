@@ -371,7 +371,7 @@ font-family: Helvetica;
 	font-size: 15pt;
   width: 600px;
   left: 31%;
-	top: 2069px;
+	top: 2071px;
   transform: translate(-60%);
 	z-index: -20;
 	color: black;
@@ -390,8 +390,8 @@ font-family: Helvetica;
 
 .school{
   position: absolute;
-  right: 25.5%;
-	top: 2060px;
+  right: 27%;
+	top: 2058px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
@@ -399,8 +399,8 @@ font-family: Helvetica;
 
 .school2{
   position: absolute;
-  right: 25.5%;
-	top: 2335px;
+  right: 27%;
+	top: 2333px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
