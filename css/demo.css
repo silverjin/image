@@ -381,8 +381,8 @@ font-family: Helvetica;
 
 .logo{
   position: absolute;
-  right: 10%;
-	top: 2260px;
+  right: 9.5%;
+	top: 2150px;
   transform: translate(25%);
 	z-index: 100;
 	color: black;
@@ -390,9 +390,19 @@ font-family: Helvetica;
 
 .school{
   position: absolute;
-  right: 15.1%;
-	top: 2058px;
+  right: 25.5%;
+	top: 2060px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
+}
+
+.school2{
+  position: absolute;
+  right: 25.5%;
+	top: 2335px;
+  transform: translate(25%);
+	z-index: -20;
+	color: black;
+	line-height: 0.3em;
 }
