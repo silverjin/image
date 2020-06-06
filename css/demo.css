@@ -144,12 +144,12 @@ margin-left: 1000px;
 .draggable6 {
   position: absolute;
   margin-top: 290px;
-  margin-left: 1140px;
+  margin-left: 1147px;
 }
 .draggable7 {
   position: absolute;
   margin-top: -30px;
-  margin-left: 1020px;
+  margin-left: 1040px;
 }
 .draggable8 {
 	position: absolute;
@@ -224,8 +224,8 @@ margin-left: 1000px;
 }
 .draggable21 {
 	position: absolute;
-  margin-top:580px;
-  margin-left: 980px;
+  margin-top:585px;
+  margin-left: 985px;
 	z-index: 90;
 }
 .draggable22 {
@@ -248,7 +248,7 @@ margin-left: 1000px;
 .draggable25 {
 	position: absolute;
   margin-top:220px;
-  margin-left: 1120px;
+  margin-left: 1125px;
 }
 .draggable26 {
 	position: absolute;
@@ -268,8 +268,8 @@ margin-left: 1000px;
 }
 .draggable29 {
 	position: absolute;
-  margin-top:790px;
-  margin-left: 1050px;
+  margin-top:795px;
+  margin-left: 1055px;
 }
 .draggable30 {
 	position: absolute;
@@ -295,13 +295,13 @@ margin-left: 1000px;
 }
 .draggable34 {
 	position: absolute;
-  margin-top:1137px;
+  margin-top:1140px;
   margin-left: 240px;
 }
 .draggable35 {
 	position: absolute;
-  margin-top:1137px;
-  margin-left: 65px;
+  margin-top:1140px;
+  margin-left: 60px;
 }
 .draggable36 {
 	position: absolute;
@@ -374,7 +374,7 @@ ul.share-buttons .sr-only{
 font-family: Pangolin;
 	font-size: 18pt;
   width: 600px;
-  left: 31%;
+  left: 31.3%;
 	top: 2715px;
   transform: translate(-60%);
 	z-index: -20;
