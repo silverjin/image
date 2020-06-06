@@ -27,7 +27,7 @@ body{
 background-image: url("https://i.imgur.com/jiCfmeF.png");
 background-repeat: repeat;
 overflow-x: hidden;
-font-size: 17pt;
+font-size: 12pt;
 }
 
 /* Let's get this party started */
@@ -414,6 +414,7 @@ font-family: Pangolin;
 	left: 900px;
 	top: 59px;
 		z-index: 100;
+		font-size: 17pt;
 }
 /* The Modal (background) */
 .modal {
@@ -545,10 +546,8 @@ width: 270px;
   white-space: nowrap;
   -webkit-user-select: none;
   cursor: pointer;
-  text-shadow: 1px 1px #fff;
-  font-weight: 700;
-  font-size: 12pt;
-	font-family: pangolin;
+  font-size: 10pt;
+
 }
 
 a:focus {
