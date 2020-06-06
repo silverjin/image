@@ -146,7 +146,7 @@ margin-left: 1000px;
 }
 .draggable7 {
   position: absolute;
-  margin-top: -10px;
+  margin-top: -14px;
   margin-left: 1020px;
 }
 .draggable8 {
@@ -271,7 +271,7 @@ margin-left: 1000px;
 }
 .draggable30 {
 	position: absolute;
-  margin-top:1082px;
+  margin-top:1086px;
   margin-left: 1040px;
 }
 .draggable31 {
@@ -402,7 +402,7 @@ font-family: Pangolin;
 .school2{
   position: absolute;
   right: 21%;
-	top: 2986px;
+	top: 2987px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
@@ -496,7 +496,7 @@ font-family: Pangolin;
 	color: black;
   font-size: 16pt;
   position: absolute;
-margin-top: 1890px;
+margin-top: 1893px;
 transform: translate(25%);
 left: 7%;
 width: 270px;
@@ -516,7 +516,7 @@ width: 270px;
   color: black;
   font-size: 16pt;
   position: absolute;
-margin-top: 1570px;
+margin-top: 1573px;
 transform: translate(25%);
 left: 40%;
 width: 270px;
