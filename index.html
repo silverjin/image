@@ -86,8 +86,8 @@ $( "#draggable38" ).draggable();
   </head>
   <body>
 <div class="photobooth">
-<img id="blah" src="https://i.imgur.com/R3LNKyd.png" alt="your image" /><br>
-<input type='file' onchange="readURL(this);" />
+<img id="blah" src="https://i.imgur.com/XQtpUy2.png" alt="your image" /><br>
+<input type='file' class="custom-file-input" onchange="readURL(this);" />
 <!-- partial -->
   <script  src="http://eunjinahn.me/image/script.js"></script>
 </div>
@@ -307,7 +307,7 @@ function draw() {
 }
 
 function erase() {
-    var m = confirm("Clear Everything");
+    var m = confirm("It will erase WHOLE drawings!");
     if (m) {
         ctx.clearRect(0, 0, w, h);
         document.getElementById("canvasimg").style.display = "none";
@@ -365,14 +365,132 @@ function findxy(res, e) {
       <div style="position:absolute;top:37%;left:43%;width:20px;height:20px;background:purple;" id="purple" onclick="color(this)"></div>
       <div style="position:absolute;top:37%;left:61%;width:20px;height:20px;background:black;" id="black" onclick="color(this)"></div>
       <div style="position:absolute;top:37%;left:79%;width:20px;height:20px;background: pink;" id="pink" onclick="color(this)"></div>
-<input type="button" value="CLEAR" id="clr" onclick="erase()" style="position:absolute;top:68px;margin-left: 16%;height:30px;">
+<input type="button" value="Erase All" id="clr" onclick="erase()" style="position:absolute;top:71px;margin-left: 7%;">
       </div>
 
   </body>
 
+  <div class="popup">
+
+  <b>Research Document</b><br>
+
+  <!-- Trigger/Open The Modal -->
+  <button id="myBtn">Open</button>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p><h3>Japanese Occupation of Korea</h3>
+Japanese Korea was the period when Korea was
+under Japanese rule, between 1910 and 1945.
+Korea (Josun) came under the Japanese
+sphere of influence in the Japan–Korea Treaty
+of 1876 and a complex coalition of the Meiji
+government, military, and business officials
+began a process of Korea's political and
+economic integration into Japan.<br><br>
+
+<img src="https://search.iisg.amsterdam/Cover/Show?author=Braakensiek%2C+Johan&callnumber=BG+D23%2F776&size=large&title=Engeland%2C+Japan+en+Korea.&oclc=943744628&pid=N30051000915527&publication=restricted"><br>
+<br>
+
+
+
+<img src="https://i.imgur.com/gmaA9FT.jpg"><br>
+<br>
+<img src="https://i.imgur.com/8F544q7.jpg"><br>
+<br>
+<img src="https://i.imgur.com/pr2n0un.jpg"><br>
+<br>
+
+Following the annexation of Korea,
+the Japanese administration introduced a
+free public education system modeled after
+the Japanese school system with a pyramidal
+hierarchy of elementary, middle and high schools.
+Their education was viewed as an instrument of
+"the Formation of the Imperial Citizen"
+Japanese religious groups such as Protestant
+Christians willingly supported the Japanese
+authorities in their effort to assimilate Koreans
+through education.<br><br>
+
+<img src="https://i.imgur.com/AH22aFq.jpg"><br>
+<br>
+<img src="https://i.imgur.com/WYWRknE.jpg"><br>
+<br>
+<img src="https://i.imgur.com/1AxWwz7.jpg"><br>
+<br>
+
+
+Japanese rule over Korea ended on 15 August
+1945 upon the Surrender of Japan in World War II
+and the armed forces of the United States and the
+Soviet Union occupied the territory.
+However, the Japanese curriculum and principles in schools remained.<br><br>
+
+<img src="https://i.imgur.com/tjFf5HM.jpg"><br>
+<br>
+<img src="https://i.imgur.com/Urp0B6m.jpg"><br>
+<br>
+<img src="https://i.imgur.com/kyqdkze.jpg"><br>
+<br>
+
+These are the photos of Korean schools after the liberation of Korea.
+It was still like an army organization of strict rules and hierarchy.
+Even though it is now 2020, strict Japanese curriculums and rules have not changed; students still say schools are like military.
+The Japanese-style education, which is coercive and ignoring the individuality of each student, is still maintained.
+<br><br>
+
+
+<h3>Decolonize Korean Schools</h3>
+
+Schools are still under control of Japanese
+imperialism. Most of rules are too similar with
+army system and they did not change much
+from the rules under Japanese colonial era.
+Do we really became independent?<br><br>
+
+<img src="https://i.imgur.com/R12OaoH.gif"><br>
+
+</p>
+    </div>
+
+  </div>
+</div>
+  <script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
 
   <div class="gallery">
-    <img src="https://i.imgur.com/WesWHaH.jpg" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+    <img src="https://i.imgur.com/WesWHaH.jpg"  width="315px" style="padding-right: 10px; padding-bottom: 10px;" >
     <img src="https://i.imgur.com/REB8XkW.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
     <img src="https://i.imgur.com/E98TqGq.jpg" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
         <img src="https://i.imgur.com/49wzh0J.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
@@ -383,26 +501,41 @@ function findxy(res, e) {
 
         <img src="https://i.imgur.com/FNVHHlB.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
 <img src="https://i.imgur.com/LkBhJej.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/VHcnK5L.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/9reNooV.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/gvSyAv9.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/eCwBoct.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+
+<img src="https://i.imgur.com/No2Npdi.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/Ch6Eyem.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/gvSyAv9.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+<img src="https://i.imgur.com/0eG9i33.png" width="315px" style="padding-right: 10px; padding-bottom: 10px;">
+
 
   </div>
 
   <div class="description">
-<img src="https://i.imgur.com/7GOckXB.png">
+    This project has inspired by free school movement & How To Set Up a Free School by Toby Young.
+    The free school movement, also known as the new schools or alternative schools movement, was an American education reform movement during the 1960s and early 1970s that sought to change the aims of formal schooling through alternative, independent community schools.<br><br>
+
+    In this website you can upload your photo, decorate it with hand-drawn stickers about this movement and share decorated photo on your social network services. With those stickers, you can decorate yourself as a student of free and self-driven school (unlike usual strict and military-like Korean schools) and you can spread this movement easily by click on the button on the right side.<br><br>
+
+    Here is a platform for ‘challenge’ which people can design and express themselves freely with their own image and spread easily on their social network services by just click on the buttons.
+
   <br><br><br><br></div>
 
 
   <div class="logo">
-<img src="https://i.imgur.com/7MoYIJB.png" width="300px;">
+<img src="https://i.imgur.com/7MoYIJB.png" width="280px;">
   </div>
   <div class="school">
-<img src="https://i.imgur.com/k6yVSCN.png" width="500px;">
+<img src="https://i.imgur.com/k6yVSCN.png" width="540px;">
   </div>
   <div class="school2">
-<img src="https://i.imgur.com/kXYttZA.png" width="500px;">
+<img src="https://i.imgur.com/kXYttZA.png" width="540px;">
   </div>
 <br><br><br>
 </body>
-
 
 </html>
 <!-- end of the html document, nothing to see here, move along -->

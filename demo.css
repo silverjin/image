@@ -2,16 +2,55 @@
 @import url('//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic');
 @import url('//cdn.rawgit.com/necolas/normalize.css/master/normalize.css');
 @import url('//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
 
 *, *:before, *:after {
 	box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
+
 body{
-	font-family: Helvetica Neue;
-	background-color: #a0c1f4;
+	font-family: Pangolin;
 	color: black;
+background-image: url("https://i.imgur.com/jiCfmeF.png");
+background-repeat: repeat;
+overflow-x: hidden;
+font-size: 17pt;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8);
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
 }
 
 .photobooth {
@@ -21,7 +60,7 @@ body{
   text-align: center;
   width: 600px;
   left: 30%;
-	top: 60px;
+	top: 61px;
   transform: translate(-57%);
 	z-index: -20;
 }
@@ -34,8 +73,8 @@ img{
 }
 
 input[type=file]{
-    text-align: center;
-  width: 580px;
+    text-align: left;
+  width: 590px;
 padding:10px;
 background:#000000;
 
@@ -77,171 +116,202 @@ margin-left: 710px;
 
 .draggable2 {
 position: absolute;
-margin-top: 390px;
+margin-top: 290px;
 margin-left: 1000px;
 }
 
 .draggable3 {
   position: absolute;
-  margin-top: 185px;
-  margin-left: 910px;
+  margin-top: 10px;
+  margin-left: 900px;
 }
 
 .draggable4 {
   position: absolute;
-  margin-top: 305px;
+  margin-top: 155px;
   margin-left: 900px;
-	z-index: 100;
+	z-index: 90;
 }
 
 .draggable5 {
   position: absolute;
-  margin-top: 420px;
+  margin-top: 320px;
   margin-left: 720px;
-		z-index: 100;
+		z-index: 90;
 }
 .draggable6 {
   position: absolute;
-  margin-top: 390px;
+  margin-top: 290px;
   margin-left: 1140px;
 }
 .draggable7 {
   position: absolute;
-  margin-top: 114px;
-  margin-left: 1010px;
+  margin-top: -10px;
+  margin-left: 1020px;
 }
 .draggable8 {
 	position: absolute;
-  margin-top: 530px;
+  margin-top: 430px;
   margin-left: 760px;
 }
 .draggable9 {
 	position: absolute;
-  margin-top: 530px;
+  margin-top: 430px;
   margin-left: 730px;
 	z-index: -10;
 }
 .draggable10 {
 	position: absolute;
-  margin-top: 750px;
+  margin-top: 660px;
   margin-left: 820px;
 	z-index: -10;
 }
 .draggable11 {
 	position: absolute;
-  margin-top: 600px;
+  margin-top: 500px;
   margin-left: 965px;
-	z-index: 100;
+	z-index: 90;
 }
 .draggable12 {
 	position: absolute;
-  margin-top: 580px;
+  margin-top: 480px;
   margin-left: 980px;
-	z-index: 1;
 }
 .draggable13 {
 	position: absolute;
-  margin-top:750px;
-  margin-left: 295px;
-	z-index: 100;
+  margin-top:740px;
+  margin-left: 225px;
+	z-index: 90;
 }
 .draggable14 {
 	position: absolute;
-  margin-top:735px;
-  margin-left: 65px;
-	z-index: 3;
+  margin-top:725px;
+  margin-left: 60px;
 }
 .draggable15 {
 	position: absolute;
-  margin-top:735px;
-  margin-left: 5px;
-	z-index: 3;
+  margin-top:725px;
+  margin-left: 0px;
 }
 .draggable16 {
 	position: absolute;
-  margin-top:760px;
+  margin-top:750px;
   margin-left: 405px;
-	z-index: 1;
 }
 .draggable17 {
 	position: absolute;
-  margin-top:750px;
+  margin-top:680px;
   margin-left: 605px;
-	z-index: 1;
 }
 .draggable18 {
 	position: absolute;
-  margin-top:907px;
+  margin-top:887px;
   margin-left: 25px;
-	z-index: 1;
 }
 .draggable19 {
 	position: absolute;
-  margin-top:907px;
+  margin-top:887px;
   margin-left: 195px;
 	z-index: 1;
 }
 .draggable20 {
 	position: absolute;
-  margin-top:810px;
+  margin-top:780px;
   margin-left: 640px;
-	z-index: 100;
+	z-index: 90;
 }
 .draggable21 {
 	position: absolute;
-  margin-top:1020px;
-  margin-left: 25px;
-	z-index: 100;
+  margin-top:600px;
+  margin-left: 980px;
+	z-index: 90;
 }
 .draggable22 {
 	position: absolute;
-  margin-top:1030px;
+  margin-top:1010px;
   margin-left: 375px;
-	z-index: 1;
 }
 .draggable23 {
 	position: absolute;
-  margin-top:1020px;
-  margin-left: 645px;
-	z-index: 100;
+  margin-top:1000px;
+  margin-left: 505px;
+	z-index: 90;
 }
 .draggable24 {
 	position: absolute;
-  margin-top:950px;
+  margin-top:845px;
   margin-left: 770px;
 	z-index: -3;
 }
 .draggable25 {
 	position: absolute;
-  margin-top:460px;
+  margin-top:240px;
   margin-left: 1120px;
-	z-index: 4;
 }
 .draggable26 {
 	position: absolute;
-  margin-top:1030px;
-  margin-left: 1020px;
-	z-index: 100;
+  margin-top:1220px;
+  margin-left: 720px;
+	z-index: 90;
 }
 .draggable27 {
 	position: absolute;
-  margin-top:1150px;
-  margin-left: 580px;
-	z-index: 4;
+  margin-top:1130px;
+  margin-left: 680px;
 }
 .draggable28 {
 	position: absolute;
-  margin-top:1150px;
-  margin-left: 735px;
-	z-index: 4;
+  margin-top:1130px;
+  margin-left: 835px;
 }
 .draggable29 {
 	position: absolute;
-  margin-top:1050px;
+  margin-top:810px;
+  margin-left: 1050px;
+}
+.draggable30 {
+	position: absolute;
+  margin-top:1110px;
   margin-left: 1040px;
-	z-index: 4;
+}
+.draggable31 {
+	position: absolute;
+  margin-top:1087px;
+  margin-left: 800px;
+}
+.draggable32 {
+	position: absolute;
+  margin-top:1180px;
+  margin-left: 480px;
+	z-index: 90;
+}
+.draggable33 {
+	position: absolute;
+	margin-top:1080px;
+	margin-left: 64px;
+	z-index: 90;
+}
+.draggable34 {
+	position: absolute;
+  margin-top:1160px;
+  margin-left: 240px;
+}
+.draggable35 {
+	position: absolute;
+  margin-top:1160px;
+  margin-left: 65px;
+}
+.draggable36 {
+	position: absolute;
+  margin-top:970px;
+  margin-left:1140px;
 }
 
+.draggable37 {
+	position: absolute;
+  margin-top:1115px;
+  margin-left: 470px;
+}
 
 
 .ui-draggable, .ui-droppable {
@@ -255,15 +325,15 @@ margin-left: 1000px;
 	height: 110px;
 	background-color: white;
   position: absolute;
-	margin-top: 60px;
-	margin-left: 50%;
+	margin-top: 61px;
+	margin-left: 49.8%;
 
 }
 
 .buttons {
 	position: absolute;
 	margin-top:190px;
-	margin-left: 50%;
+	margin-left: 49.8%;
 }
 
 ul.share-buttons{
@@ -290,8 +360,8 @@ ul.share-buttons .sr-only{
   position: absolute;
   text-align: center;
   width: 1350px;
-  left: 30%;
-	top: 1440px;
+  left: 30.17%;
+	top: 1397px;
   transform: translate(-28.6%);
 	z-index: -20;
 }
@@ -299,23 +369,123 @@ ul.share-buttons .sr-only{
 .description{
   position: absolute;
   text-align: left;
-	font-style: helvetica;
+font-family: Pangolin;
 	font-size: 18pt;
-	font-weight: 500;
   width: 600px;
-  left: 30%;
-	top: 2460px;
+  left: 31%;
+	top: 2721px;
   transform: translate(-60%);
 	z-index: -20;
 	color: black;
-	line-height: 1em;
+	line-height: 1.2em;
 }
+
 
 .logo{
   position: absolute;
-  right: 10%;
-	top: 2450px;
+  right: 9.3%;
+	top: 2790px;
+  transform: translate(25%);
+	z-index: 90;
+	color: black;
+}
+
+.school{
+  position: absolute;
+  right: 21%;
+	top: 2710px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
+}
+
+.school2{
+  position: absolute;
+  right: 21%;
+	top: 2996px;
+  transform: translate(25%);
+	z-index: -20;
+	color: black;
+	line-height: 0.3em;
+}
+
+.popup {
+	position: absolute;
+	left: 900px;
+	top: 50px;
+		z-index: 100;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		z-index: 100;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* Modal Content */
+.modal-content {
+  background-color: #000000;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #888;
+  width: 62%;
+	font-family: 'Montaga', serif;
+	font-size: 18pt;
+	color: white;
+	z-index: 100;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myBtn {
+	background-color: black;
+	border: none;
+  color: white;
+  padding: 7px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+	font-family: pangolin;
+}
+
+#clr {
+	background-color: white;
+	border: none;
+  color: black;
+  padding: 0px 0px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+	font-family: pangolin;
+
 }
