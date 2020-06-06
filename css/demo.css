@@ -271,7 +271,7 @@ margin-left: 1000px;
 }
 .draggable30 {
 	position: absolute;
-  margin-top:990px;
+  margin-top:1080px;
   margin-left: 1040px;
 }
 .draggable31 {
@@ -293,12 +293,12 @@ margin-left: 1000px;
 }
 .draggable34 {
 	position: absolute;
-  margin-top:1140px;
+  margin-top:1137px;
   margin-left: 240px;
 }
 .draggable35 {
 	position: absolute;
-  margin-top:1140px;
+  margin-top:1137px;
   margin-left: 65px;
 }
 .draggable36 {
@@ -373,7 +373,7 @@ font-family: Pangolin;
 	font-size: 18pt;
   width: 600px;
   left: 31%;
-	top: 2721px;
+	top: 2715px;
   transform: translate(-60%);
 	z-index: -20;
 	color: black;
@@ -393,7 +393,7 @@ font-family: Pangolin;
 .school{
   position: absolute;
   right: 21%;
-	top: 2710px;
+	top: 2700px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
@@ -402,7 +402,7 @@ font-family: Pangolin;
 .school2{
   position: absolute;
   right: 21%;
-	top: 2996px;
+	top: 2986px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
@@ -412,7 +412,7 @@ font-family: Pangolin;
 .popup {
 	position: absolute;
 	left: 900px;
-	top: 60px;
+	top: 59px;
 		z-index: 100;
 }
 /* The Modal (background) */
@@ -488,4 +488,36 @@ font-family: Pangolin;
   font-size: 21px;
 	font-family: pangolin;
 
+}
+
+
+
+.bubble4{
+	color: black;
+  font-size: 16pt;
+  position: absolute;
+margin-top: 1890px;
+transform: translate(25%);
+left: 7%;
+width: 270px;
+}
+
+.bubble2{
+  color: black;
+  font-size: 16pt;
+  position: absolute;
+margin-top: 2220px;
+transform: translate(25%);
+right: 18%;
+width: 270px;
+}
+
+.bubble3{
+  color: black;
+  font-size: 16pt;
+  position: absolute;
+margin-top: 1570px;
+transform: translate(25%);
+left: 40%;
+width: 270px;
 }
